@@ -1,0 +1,216 @@
+.form {
+  width: 100%;
+  min-width: 1024px;
+  background: linear-gradient(139.5deg, #026693 33.8%, #00b3ff 33.8%);
+  background-position: center;
+  padding: 164px 0 247px;
+
+  &__container {
+    padding-left: 38.5vw;
+    padding-right: 120px;
+    position: relative;
+
+    @include vp-1439 {
+      padding-left: 38.5vw;
+    }
+
+    &::before {
+      content: url("/img/form-aiplane.png");
+      position: absolute;
+      left: 110px;
+      top: 82px;
+    }
+  }
+
+  & h2 {
+    font-family: "Roboto Condensed", "Arial", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 51px;
+    color: #ffffff;
+    margin-top: 0;
+    margin-left: -5px;
+    margin-bottom: 14px;
+  }
+
+  & p {
+    font-family: "PT Mono", "Arial", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #ffffff;
+    margin-top: 0;
+    margin-bottom: 35px;
+  }
+
+  &__feedback {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 30px;
+    max-width: 580px;
+  }
+
+  &__name {
+    margin-bottom: 20px;
+    padding: 0;
+
+    & input {
+      min-width: 275px;
+      min-height: 50px;
+      padding: 10px;
+      padding-left: 15px;
+    }
+  }
+
+  &__phone {
+    padding: 0;
+    margin-bottom: 20px;
+
+    & input {
+      min-width: 275px;
+      min-height: 50px;
+      padding: 10px;
+      padding-left: 15px;
+    }
+  }
+
+  &__question {
+    padding: 0;
+    margin-bottom: 35px;
+    grid-column: 1/3;
+
+    & textarea {
+      min-width: 580px;
+      min-height: 155px;
+      padding: 10px;
+      padding-left: 15px;
+      padding-top: 21px;
+    }
+  }
+
+  & button {
+    max-width: 265px;
+    max-height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 17px 15px 13px;
+    background: #041427;
+    border-radius: 3px;
+    font-family: "Roboto Condensed", "Arial", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #ffffff;
+  }
+
+  &__checkbox {
+    display: flex;
+    align-items: center;
+    font-family: "PT Mono", "Arial", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #ffffff;
+    opacity: 0.8;
+    margin-top: 16px;
+  }
+}
+
+@media (max-width: 1023px) {
+  .form {
+    max-width: 1023px;
+    min-width: 768px;
+    background: #00b3ff;
+    padding: 45px 0 125px;
+
+    &__container::before {
+      content: none;
+    }
+
+    & h2 {
+      margin-left: 0;
+      margin-bottom: 8px;
+    }
+
+    & p {
+      margin-bottom: 26px;
+    }
+
+    &__feedback {
+      max-width: 87vw;
+      column-gap: 4vw;
+    }
+
+    & input {
+      min-width: 41.5vw;
+    }
+
+    & textarea {
+      padding-top: 30px;
+      min-width: 87vw;
+    }
+
+    & button {
+      max-width: 34.4vw;
+    }
+
+    &__checkbox {
+      margin-top: 0;
+    }
+  }
+}
+
+@media (max-width: 767px) {
+  .form {
+    max-width: 767px;
+    min-width: 320px;
+    padding: 47px 0 28px;
+
+    & h2 {
+      margin-left: 0;
+      margin-bottom: 8px;
+      font-size: 30px;
+      line-height: 140.62%;
+    }
+
+    & p {
+      margin-bottom: 33px;
+      font-size: 14px;
+      line-height: 134.4%;
+    }
+
+    &__feedback {
+      display: flex;
+      flex-direction: column;
+      max-width: 84.3vw;
+      min-width: 84.3vw;
+    }
+
+    & input {
+      min-width: 84.3vw;
+    }
+
+    &__question {
+      margin-bottom: 31px;
+    }
+
+    & textarea {
+      padding-top: 25px;
+      min-width: 84.3vw;
+      min-height: 180px;
+    }
+
+    & button {
+      max-width: 84.3vw;
+      margin-bottom: 6px;
+    }
+  }
+}
