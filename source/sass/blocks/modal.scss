@@ -82,6 +82,10 @@
     height: 20px;
     padding: 0;
 
+    @include hover-focus {
+      opacity: 0.8;
+    }
+
     background: $color-transparent;
     border: none;
     cursor: pointer;

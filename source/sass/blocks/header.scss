@@ -3,7 +3,7 @@
   width: 100%;
   min-width: 1023px;
   background: linear-gradient(180deg, #041827 84.9%, rgba(4, 24, 39, 0) 100%);
-  padding: 30px 0 35px;
+  padding: 20px 0 35px;
   position: sticky;
   top: 0;
   left: 0;
@@ -15,6 +15,10 @@
     justify-content: space-between;
   }
 
+  &__logo-desktop {
+    margin-top: 10px;
+  }
+
   &__logo-mobile {
     display: none;
   }
@@ -24,9 +28,11 @@
     list-style-type: none;
     padding: 0;
     margin: 0;
-    gap: 120px;
-    margin-top: -10px;
+    justify-content: space-between;
     flex-wrap: wrap;
+    min-width: 460px;
+    max-width: 480px;
+    gap: 10px;
   }
 
   &__nav-item {
@@ -58,8 +64,8 @@
     letter-spacing: 0.05em;
     text-transform: uppercase;
     color: #f2f5f7;
-    margin-top: -10px;
     margin-right: 60px;
+    max-width: 160px;
   }
 }
 
@@ -67,14 +73,20 @@
   .header {
     max-width: 1023px;
     min-width: 768px;
-    padding: 20px 0 25px;
+    padding: 3px 0 25px;
     align-items: flex-start;
     justify-content: space-between;
+    position: static;
+
+    &__logo-desktop {
+      margin-top: 17px;
+    }
 
     &__nav-list {
       gap: 40px;
       margin-right: 29px;
-      margin-top: -20px;
+      max-width: none;
+      min-width: auto;
     }
 
     & span {
@@ -104,7 +116,7 @@
     &__nav-list {
       gap: 40px;
       margin-right: 18px;
-      margin-top: -3px;
+      margin-top: 0;
     }
   }
 }

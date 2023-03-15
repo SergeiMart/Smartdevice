@@ -41,7 +41,7 @@
     padding-bottom: 40px;
   }
 
-  &__br {
+  &__break {
     height: 20px;
     display: block;
   }
@@ -64,6 +64,20 @@
     color: #00b2ff;
     padding: 14px;
     min-width: 180px;
+  }
+
+  &--no-js {
+    & [data-more="content-mobile"] {
+      display: block;
+    }
+
+    & [data-more="content"] {
+      display: block;
+    }
+
+    & button {
+      display: none;
+    }
   }
 }
 

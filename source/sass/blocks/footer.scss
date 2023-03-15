@@ -11,7 +11,7 @@
 
   &__accordion {
     display: flex;
-    gap: 82px;
+    gap: 4.3vw;
     margin-right: 25px;
   }
 
@@ -21,6 +21,10 @@
     list-style: none;
     margin: 0;
     padding: 0;
+    max-width: 215px;
+    gap: 25px;
+    margin-left: 15px;
+    margin-top: 30px;
   }
 
   &__accordion-button {
@@ -100,6 +104,7 @@
 
     &__list-links {
       gap: 25px;
+      margin: 0;
     }
 
     &__accordion {
@@ -108,7 +113,7 @@
       margin-right: 0;
       gap: 0;
       justify-content: space-between;
-      padding-top: 30px;
+      padding-top: 24px;
     }
 
     &__site-list {
@@ -140,7 +145,7 @@
     &__links {
       flex-direction: column;
       padding: 0 17.1vw  0 15.6vw;
-      gap: 19px;
+      gap: 13px;
     }
 
     &__list-links {
@@ -166,6 +171,28 @@
       width: 100%;
       padding-left: 26px;
       padding-top: 22px;
+      position: relative;
+
+      &::after {
+        content: "";
+        position: absolute;
+        top: 28px;
+        right: 26px;
+        width: 15px;
+        height: 1px;
+        background: #c4c4c4;
+      }
+
+      &::before {
+        content: "";
+        position: absolute;
+        right: 26px;
+        top: 28px;
+        width: 15px;
+        height: 1px;
+        background: #c4c4c4;
+        transform: rotate(90deg);
+      }
     }
 
     &__site-list {
@@ -196,5 +223,10 @@
 
   .footer__contact-item--margin {
     margin-top: -3px;
+  }
+
+  .is-active .footer__accordion-button::before {
+    content: none;
+    transition: 0.5s;
   }
 }

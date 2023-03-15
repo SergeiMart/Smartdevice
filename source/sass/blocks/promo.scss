@@ -2,7 +2,7 @@
   max-width: 100%;
   min-width: 1024px;
   background-image: linear-gradient(180deg, rgba(25, 32, 36, 0.7) 71.72%, rgba(25, 32, 36, 0) 100%),
-  url("../..../../img/main-background-desktop.png");
+  url("../..../../img/main-background-desktop.webp");
 
   background-image: linear-gradient(180deg, rgba(25, 32, 36, 0.7) 71.72%, rgba(25, 32, 36, 0) 100%),
     -webkit-image-set(
@@ -26,9 +26,10 @@
   min-height: 771px;
   margin-top: -18px;
   padding-top: 195px;
+  padding-bottom: 150px;
 
   &__container {
-    padding-left: 235px;
+    padding-left: 12.2vw;
   }
 
   & h2 {
@@ -85,7 +86,7 @@
     max-width: 1023px;
     min-width: 770px;
     background-image: linear-gradient(180deg, rgba(25, 32, 36, 0.7) 71.72%, rgba(25, 32, 36, 0) 100%),
-    url("../../img/main-background-tablet.png");
+    url("../../img/main-background-tablet.webp");
 
     background-image: linear-gradient(180deg, rgba(25, 32, 36, 0.7) 71.72%, rgba(25, 32, 36, 0) 100%),
     -webkit-image-set(
@@ -131,7 +132,7 @@
     max-width: 767px;
     min-width: 320px;
     background-image: linear-gradient(180deg, rgba(25, 32, 36, 0.7) 71.72%, rgba(25, 32, 36, 0) 100%),
-    url("../../img/main-background-mobile.png");
+    url("../../img/main-background-mobile.webp");
 
 
     background-image: linear-gradient(180deg, rgba(25, 32, 36, 0.7) 71.72%, rgba(25, 32, 36, 0) 100%),

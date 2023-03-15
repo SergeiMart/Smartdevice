@@ -69,3 +69,10 @@
 .js-focus-visible :focus:not(.focus-visible) {
   outline: none;
 }
+
+// .unselectable {
+//   -moz-user-select: none;
+//   -khtml-user-select: none;
+//   -webkit-user-select: none;
+//   user-select: none;
+// }
