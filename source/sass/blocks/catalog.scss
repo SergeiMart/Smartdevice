@@ -34,6 +34,7 @@
     max-width: 350px;
     height: 650px;
     position: relative;
+    background-color: #c4c4c4;
 
     @include hover-focus {
       opacity: 0.8;
