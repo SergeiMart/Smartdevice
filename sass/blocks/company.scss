@@ -1,0 +1,134 @@
+.company {
+  width: 100%;
+  min-width: 1024px;
+  padding-bottom: 120px;
+  z-index: 1;
+
+  &__container {
+    padding-left: 360px;
+    position: relative;
+
+    @include vp-1439 {
+      padding-left: 360px;
+    }
+
+    &::before {
+      content: url("/img/about-company-background-desktop.png");
+      position: absolute;
+      left: 110px;
+    }
+  }
+
+  & h2 {
+    font-family: "Roboto Condensed", "Arial", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 51px;
+    color: #041827;
+    margin: 0;
+    padding-bottom: 12px;
+  }
+
+  & p {
+    font-family: "PT Mono", "Arial", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #041827;
+    margin: 0;
+    padding-bottom: 40px;
+  }
+
+  &__break {
+    height: 20px;
+    display: block;
+  }
+
+  & button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #00b2ff;
+    border-radius: 3px;
+    background: transparent;
+    font-family: "Roboto Condensed", "Arial", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #00b2ff;
+    padding: 14px;
+    min-width: 180px;
+  }
+
+  &--no-js {
+    & [data-more="content-mobile"] {
+      display: block;
+    }
+
+    & [data-more="content"] {
+      display: block;
+    }
+
+    & button {
+      display: none;
+    }
+  }
+}
+
+@media (max-width: 1023px) {
+  .company {
+    max-width: 1023px;
+    min-width: 768px;
+    padding-bottom: 80px;
+
+    &__container {
+      padding-left: 225px;
+
+      &::before {
+        left: 45px;
+        top: 5px;
+      }
+    }
+
+    & p {
+      padding-bottom: 14px;
+    }
+
+    & button {
+      width: 23vw;
+    }
+  }
+}
+
+@media (max-width: 767px) {
+  .company {
+    max-width: 767px;
+    min-width: 320px;
+
+    &__container::before {
+      content: none;
+    }
+
+    & h2 {
+      font-size: 28px;
+      line-height: 140.62%;
+    }
+
+    & p {
+      font-size: 14px;
+      line-height: 134.4%;
+    }
+
+    & button {
+      min-width: auto;
+      width: 50vw;
+      padding: 9px;
+    }
+  }
+}
