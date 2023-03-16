@@ -1365,28 +1365,34 @@ button,
   outline: none;
 }
 
-.catalog__item--1 {
-  background-image: url("../../img/product-card-1-desktop.webp");
+.catalog li {
+  background-repeat: no-repeat;
+  background-size: cover;
   background-color: #c4c4c4;
-  background-image: -webkit-image-set(url("../../img/product-card-1-desktop@2x.webp") 2x, url("../../img/product-card-1-desktop.webp") 1x, url("../../img/product-card-1-desktop@2x.png") 2x, url("../../img/product-card-1-desktop.png") 1x);
-  background-image: -webkit-image-set(url("../../img/product-card-1-desktop@2x.webp") type("image/webp") 2x, url("../../img/product-card-1-desktop.webp") type("image/webp") 1x, url("../../img/product-card-1-desktop@2x.png") type("image/png") 2x, url("../../img/product-card-1-desktop.png") type("image/png") 1x);
-  background-image: image-set(url("../../img/product-card-1-desktop@2x.webp") type("image/webp") 2x, url("../../img/product-card-1-desktop.webp") type("image/webp") 1x, url("../../img/product-card-1-desktop@2x.png") type("image/png") 2x, url("../../img/product-card-1-desktop.png") type("image/png") 1x);
+}
+
+.catalog__item--1 {
+  background-image: url("./../img/product-card-1-desktop.webp");
+  background-color: #c4c4c4;
+  background-image: -webkit-image-set(url("./../img/product-card-1-desktop@2x.webp") 2x, url("./../img/product-card-1-desktop.webp") 1x, url("./../img/product-card-1-desktop@2x.png") 2x, url("./../img/product-card-1-desktop.png") 1x);
+  background-image: -webkit-image-set(url("./../img/product-card-1-desktop@2x.webp") type("image/webp") 2x, url("./../img/product-card-1-desktop.webp") type("image/webp") 1x, url("./../img/product-card-1-desktop@2x.png") type("image/png") 2x, url("./../img/product-card-1-desktop.png") type("image/png") 1x);
+  background-image: image-set(url("./../img/product-card-1-desktop@2x.webp") type("image/webp") 2x, url("./../img/product-card-1-desktop.webp") type("image/webp") 1x, url("./../img/product-card-1-desktop@2x.png") type("image/png") 2x, url("./../img/product-card-1-desktop.png") type("image/png") 1x);
 }
 
 .catalog__item--3 {
-  background-image: url("../../img/product-card-3-desktop.webp");
+  background-image: url("./../img/product-card-3-desktop.webp");
   background-color: #c4c4c4;
-  background-image: -webkit-image-set(url("../../img/product-card-3-desktop@2x.webp") 2x, url("../../img/product-card-3-desktop.webp") 1x, url("../../img/product-card-3-desktop@2x.png") 2x, url("../../img/product-card-3-desktop.png") 1x);
-  background-image: -webkit-image-set(url("../../img/product-card-3-desktop@2x.webp") type("image/webp") 2x, url("../../img/product-card-3-desktop.webp") type("image/webp") 1x, url("../../img/product-card-3-desktop@2x.png") type("image/png") 2x, url("../../img/product-card-3-desktop.png") type("image/png") 1x);
-  background-image: image-set(url("../../img/product-card-3-desktop@2x.webp") type("image/webp") 2x, url("../../img/product-card-3-desktop.webp") type("image/webp") 1x, url("../../img/product-card-3-desktop@2x.png") type("image/png") 2x, url("../../img/product-card-3-desktop.png") type("image/png") 1x);
+  background-image: -webkit-image-set(url("./../img/product-card-3-desktop@2x.webp") 2x, url("./../img/product-card-3-desktop.webp") 1x, url("./../img/product-card-3-desktop@2x.png") 2x, url("./../img/product-card-3-desktop.png") 1x);
+  background-image: -webkit-image-set(url("./../img/product-card-3-desktop@2x.webp") type("image/webp") 2x, url("./../img/product-card-3-desktop.webp") type("image/webp") 1x, url("./../img/product-card-3-desktop@2x.png") type("image/png") 2x, url("./../img/product-card-3-desktop.png") type("image/png") 1x);
+  background-image: image-set(url("./../img/product-card-3-desktop@2x.webp") type("image/webp") 2x, url("./../img/product-card-3-desktop.webp") type("image/webp") 1x, url("./../img/product-card-3-desktop@2x.png") type("image/png") 2x, url("./../img/product-card-3-desktop.png") type("image/png") 1x);
 }
 
 .catalog__item--2 {
-  background-image: url("../../img/product-card-2-desktop.webp");
+  background-image: url("./../img/product-card-2-desktop.webp");
   background-color: #c4c4c4;
-  background-image: -webkit-image-set(url("../../img/product-card-2-desktop@2x.webp") 2x, url("../../img/product-card-2-desktop.webp") 1x, url("../../img/product-card-2-desktop@2x.png") 2x, url("../../img/product-card-2-desktop.png") 1x);
-  background-image: -webkit-image-set(url("../../img/product-card-2-desktop@2x.webp") type("image/webp") 2x, url("../../img/product-card-2-desktop.webp") type("image/webp") 1x, url("../../img/product-card-2-desktop@2x.png") type("image/png") 2x, url("../../img/product-card-2-desktop.png") type("image/png") 1x);
-  background-image: image-set(url("../../img/product-card-2-desktop@2x.webp") type("image/webp") 2x, url("../../img/product-card-2-desktop.webp") type("image/webp") 1x, url("../../img/product-card-2-desktop@2x.png") type("image/png") 2x, url("../../img/product-card-2-desktop.png") type("image/png") 1x);
+  background-image: -webkit-image-set(url("./../img/product-card-2-desktop@2x.webp") 2x, url("./../img/product-card-2-desktop.webp") 1x, url("./../img/product-card-2-desktop@2x.png") 2x, url("./../img/product-card-2-desktop.png") 1x);
+  background-image: -webkit-image-set(url("./../img/product-card-2-desktop@2x.webp") type("image/webp") 2x, url("./../img/product-card-2-desktop.webp") type("image/webp") 1x, url("./../img/product-card-2-desktop@2x.png") type("image/png") 2x, url("./../img/product-card-2-desktop.png") type("image/png") 1x);
+  background-image: image-set(url("./../img/product-card-2-desktop@2x.webp") type("image/webp") 2x, url("./../img/product-card-2-desktop.webp") type("image/webp") 1x, url("./../img/product-card-2-desktop@2x.png") type("image/png") 2x, url("./../img/product-card-2-desktop.png") type("image/png") 1x);
 }
 
 .footer {
@@ -2022,11 +2028,6 @@ button,
     max-width: none;
   }
 
-  .catalog li {
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-
   .catalog__desktop-br {
     display: block;
   }
@@ -2040,24 +2041,24 @@ button,
   }
 
   .catalog__item--1 {
-    background-image: url("../../img/product-card-1-tablet.webp");
-    background-image: -webkit-image-set(url("../../img/product-card-1-tablet@2x.webp") 2x, url("../../img/product-card-1-tablet.webp") 1x, url("../../img/product-card-1-tablet@2x.png") 2x, url("../../img/product-card-1-tablet.png") 1x);
-    background-image: -webkit-image-set(url("../../img/product-card-1-tablet@2x.webp") type("image/webp") 2x, url("../../img/product-card-1-tablet.webp") type("image/webp") 1x, url("../../img/product-card-1-tablet@2x.png") type("image/png") 2x, url("../../img/product-card-1-tablet.png") type("image/png") 1x);
-    background-image: image-set(url("../../img/product-card-1-tablet@2x.webp") type("image/webp") 2x, url("../../img/product-card-1-tablet.webp") type("image/webp") 1x, url("../../img/product-card-1-tablet@2x.png") type("image/png") 2x, url("../../img/product-card-1-tablet.png") type("image/png") 1x);
+    background-image: url("./../img/product-card-1-tablet.webp");
+    background-image: -webkit-image-set(url("./../img/product-card-1-tablet@2x.webp") 2x, url("./../img/product-card-1-tablet.webp") 1x, url("./../img/product-card-1-tablet@2x.png") 2x, url("./../img/product-card-1-tablet.png") 1x);
+    background-image: -webkit-image-set(url("./../img/product-card-1-tablet@2x.webp") type("image/webp") 2x, url("./../img/product-card-1-tablet.webp") type("image/webp") 1x, url("./../img/product-card-1-tablet@2x.png") type("image/png") 2x, url("./../img/product-card-1-tablet.png") type("image/png") 1x);
+    background-image: image-set(url("./../img/product-card-1-tablet@2x.webp") type("image/webp") 2x, url("./../img/product-card-1-tablet.webp") type("image/webp") 1x, url("./../img/product-card-1-tablet@2x.png") type("image/png") 2x, url("./../img/product-card-1-tablet.png") type("image/png") 1x);
   }
 
   .catalog__item--3 {
-    background: url("../../img/product-card-3-tablet.webp");
-    background-image: -webkit-image-set(url("../../img/product-card-3-tablet@2x.webp") 2x, url("../../img/product-card-3-tablet.webp") 1x, url("../../img/product-card-3-tablet@2x.png") 2x, url("../../img/product-card-3-tablet.png") 1x);
-    background-image: -webkit-image-set(url("../../img/product-card-3-tablet@2x.webp") type("image/webp") 2x, url("../../img/product-card-3-tablet.webp") type("image/webp") 1x, url("../../img/product-card-3-tablet@2x.png") type("image/png") 2x, url("../../img/product-card-3-tablet.png") type("image/png") 1x);
-    background-image: image-set(url("../../img/product-card-3-tablet@2x.webp") type("image/webp") 2x, url("../../img/product-card-3-tablet.webp") type("image/webp") 1x, url("../../img/product-card-3-tablet@2x.png") type("image/png") 2x, url("../../img/product-card-3-tablet.png") type("image/png") 1x);
+    background: url("./../img/product-card-3-tablet.webp");
+    background-image: -webkit-image-set(url("./../img/product-card-3-tablet@2x.webp") 2x, url("./../img/product-card-3-tablet.webp") 1x, url("./../img/product-card-3-tablet@2x.png") 2x, url("./../img/product-card-3-tablet.png") 1x);
+    background-image: -webkit-image-set(url("./../img/product-card-3-tablet@2x.webp") type("image/webp") 2x, url("./../img/product-card-3-tablet.webp") type("image/webp") 1x, url("./../img/product-card-3-tablet@2x.png") type("image/png") 2x, url("./../img/product-card-3-tablet.png") type("image/png") 1x);
+    background-image: image-set(url("./../img/product-card-3-tablet@2x.webp") type("image/webp") 2x, url("./../img/product-card-3-tablet.webp") type("image/webp") 1x, url("./../img/product-card-3-tablet@2x.png") type("image/png") 2x, url("./../img/product-card-3-tablet.png") type("image/png") 1x);
   }
 
   .catalog__item--2 {
-    background: url("../../img/product-card-2-tablet.webp");
-    background-image: -webkit-image-set(url("../../img/product-card-2-tablet@2x.webp") 2x, url("../../img/product-card-2-tablet.webp") 1x, url("../../img/product-card-2-tablet@2x.png") 2x, url("../../img/product-card-2-tablet.png") 1x);
-    background-image: -webkit-image-set(url("../../img/product-card-2-tablet@2x.webp") type("image/webp") 2x, url("../../img/product-card-2-tablet.webp") type("image/webp") 1x, url("../../img/product-card-2-tablet@2x.png") type("image/png") 2x, url("../../img/product-card-2-tablet.png") type("image/png") 1x);
-    background-image: image-set(url("../../img/product-card-2-tablet@2x.webp") type("image/webp") 2x, url("../../img/product-card-2-tablet.webp") type("image/webp") 1x, url("../../img/product-card-2-tablet@2x.png") type("image/png") 2x, url("../../img/product-card-2-tablet.png") type("image/png") 1x);
+    background: url("./../img/product-card-2-tablet.webp");
+    background-image: -webkit-image-set(url("./../img/product-card-2-tablet@2x.webp") 2x, url("./../img/product-card-2-tablet.webp") 1x, url("./../img/product-card-2-tablet@2x.png") 2x, url("./../img/product-card-2-tablet.png") 1x);
+    background-image: -webkit-image-set(url("./../img/product-card-2-tablet@2x.webp") type("image/webp") 2x, url("./../img/product-card-2-tablet.webp") type("image/webp") 1x, url("./../img/product-card-2-tablet@2x.png") type("image/png") 2x, url("./../img/product-card-2-tablet.png") type("image/png") 1x);
+    background-image: image-set(url("./../img/product-card-2-tablet@2x.webp") type("image/webp") 2x, url("./../img/product-card-2-tablet.webp") type("image/webp") 1x, url("./../img/product-card-2-tablet@2x.png") type("image/png") 2x, url("./../img/product-card-2-tablet.png") type("image/png") 1x);
   }
 
   .footer {
@@ -2338,24 +2339,24 @@ button,
   }
 
   .catalog__item--1 {
-    background: url("../../img/product-card-1-mobile.webp");
-    background-image: -webkit-image-set(url("../../img/product-card-1-mobile@2x.webp") 2x, url("../../img/product-card-1-mobile.webp") 1x, url("../../img/product-card-1-mobile@2x.png") 2x, url("../../img/product-card-1-mobile.png") 1x);
-    background-image: -webkit-image-set(url("../../img/product-card-1-mobile@2x.webp") type("image/webp") 2x, url("../../img/product-card-1-mobile.webp") type("image/webp") 1x, url("../../img/product-card-1-mobile@2x.png") type("image/png") 2x, url("../../img/product-card-1-mobile.png") type("image/png") 1x);
-    background-image: image-set(url("../../img/product-card-1-mobile@2x.webp") type("image/webp") 2x, url("../../img/product-card-1-mobile.webp") type("image/webp") 1x, url("../../img/product-card-1-mobile@2x.png") type("image/png") 2x, url("../../img/product-card-1-mobile.png") type("image/png") 1x);
+    background: url("./../img/product-card-1-mobile.webp");
+    background-image: -webkit-image-set(url("./../img/product-card-1-mobile@2x.webp") 2x, url("./../img/product-card-1-mobile.webp") 1x, url("./../img/product-card-1-mobile@2x.png") 2x, url("./../img/product-card-1-mobile.png") 1x);
+    background-image: -webkit-image-set(url("./../img/product-card-1-mobile@2x.webp") type("image/webp") 2x, url("./../img/product-card-1-mobile.webp") type("image/webp") 1x, url("./../img/product-card-1-mobile@2x.png") type("image/png") 2x, url("./../img/product-card-1-mobile.png") type("image/png") 1x);
+    background-image: image-set(url("./../img/product-card-1-mobile@2x.webp") type("image/webp") 2x, url("./../img/product-card-1-mobile.webp") type("image/webp") 1x, url("./../img/product-card-1-mobile@2x.png") type("image/png") 2x, url("./../img/product-card-1-mobile.png") type("image/png") 1x);
   }
 
   .catalog__item--3 {
-    background: url("../../img/product-card-3-mobile.webp");
-    background-image: -webkit-image-set(url("../../img/product-card-3-mobile@2x.webp") 2x, url("../../img/product-card-3-mobile.webp") 1x, url("../../img/product-card-3-mobile@2x.png") 2x, url("../../img/product-card-3-mobile.png") 1x);
-    background-image: -webkit-image-set(url("../../img/product-card-3-mobile@2x.webp") type("image/webp") 2x, url("../../img/product-card-3-mobile.webp") type("image/webp") 1x, url("../../img/product-card-3-mobile@2x.png") type("image/png") 2x, url("../../img/product-card-3-mobile.png") type("image/png") 1x);
-    background-image: image-set(url("../../img/product-card-3-mobile@2x.webp") type("image/webp") 2x, url("../../img/product-card-3-mobile.webp") type("image/webp") 1x, url("../../img/product-card-3-mobile@2x.png") type("image/png") 2x, url("../../img/product-card-3-mobile.png") type("image/png") 1x);
+    background: url("./../img/product-card-3-mobile.webp");
+    background-image: -webkit-image-set(url("./../img/product-card-3-mobile@2x.webp") 2x, url("./../img/product-card-3-mobile.webp") 1x, url("./../img/product-card-3-mobile@2x.png") 2x, url("./../img/product-card-3-mobile.png") 1x);
+    background-image: -webkit-image-set(url("./../img/product-card-3-mobile@2x.webp") type("image/webp") 2x, url("./../img/product-card-3-mobile.webp") type("image/webp") 1x, url("./../img/product-card-3-mobile@2x.png") type("image/png") 2x, url("./../img/product-card-3-mobile.png") type("image/png") 1x);
+    background-image: image-set(url("./../img/product-card-3-mobile@2x.webp") type("image/webp") 2x, url("./../img/product-card-3-mobile.webp") type("image/webp") 1x, url("./../img/product-card-3-mobile@2x.png") type("image/png") 2x, url("./../img/product-card-3-mobile.png") type("image/png") 1x);
   }
 
   .catalog__item--2 {
-    background: url("../../img/product-card-2-mobile.webp");
-    background-image: -webkit-image-set(url("../../img/product-card-2-mobile@2x.webp") 2x, url("../../img/product-card-2-mobile.webp") 1x, url("../../img/product-card-2-mobile@2x.png") 2x, url("../../img/product-card-2-mobile.png") 1x);
-    background-image: -webkit-image-set(url("../../img/product-card-2-mobile@2x.webp") type("image/webp") 2x, url("../../img/product-card-2-mobile.webp") type("image/webp") 1x, url("../../img/product-card-2-mobile@2x.png") type("image/png") 2x, url("../../img/product-card-2-mobile.png") type("image/png") 1x);
-    background-image: image-set(url("../../img/product-card-2-mobile@2x.webp") type("image/webp") 2x, url("../../img/product-card-2-mobile.webp") type("image/webp") 1x, url("../../img/product-card-2-mobile@2x.png") type("image/png") 2x, url("../../img/product-card-2-mobile.png") type("image/png") 1x);
+    background: url("./../img/product-card-2-mobile.webp");
+    background-image: -webkit-image-set(url("./../img/product-card-2-mobile@2x.webp") 2x, url("./../img/product-card-2-mobile.webp") 1x, url("./../img/product-card-2-mobile@2x.png") 2x, url("./../img/product-card-2-mobile.png") 1x);
+    background-image: -webkit-image-set(url("./../img/product-card-2-mobile@2x.webp") type("image/webp") 2x, url("./../img/product-card-2-mobile.webp") type("image/webp") 1x, url("./../img/product-card-2-mobile@2x.png") type("image/png") 2x, url("./../img/product-card-2-mobile.png") type("image/png") 1x);
+    background-image: image-set(url("./../img/product-card-2-mobile@2x.webp") type("image/webp") 2x, url("./../img/product-card-2-mobile.webp") type("image/webp") 1x, url("./../img/product-card-2-mobile@2x.png") type("image/png") 2x, url("./../img/product-card-2-mobile.png") type("image/png") 1x);
   }
 
   .footer {
