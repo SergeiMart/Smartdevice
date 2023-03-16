@@ -13,7 +13,7 @@
     }
 
     &::before {
-      content: url("/img/about-company-background-desktop.png");
+      content: url("./../img/about-company-background-desktop.png");
       position: absolute;
       left: 110px;
     }
