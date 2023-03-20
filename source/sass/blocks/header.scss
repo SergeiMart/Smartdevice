@@ -1,7 +1,6 @@
 .header {
   display: flex;
   width: 100%;
-  min-width: 1023px;
   background: linear-gradient(180deg, #041827 84.9%, rgba(4, 24, 39, 0) 100%);
   padding: 20px 0 35px;
   position: sticky;
@@ -24,15 +23,15 @@
   }
 
   &__nav-list {
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 2vw;
     list-style-type: none;
     padding: 0;
     margin: 0;
-    justify-content: space-between;
-    flex-wrap: wrap;
     min-width: 460px;
     max-width: 480px;
-    gap: 10px;
+    row-gap: 10px;
   }
 
   &__nav-item {
@@ -76,12 +75,17 @@
     padding: 3px 0 25px;
     align-items: flex-start;
     justify-content: space-between;
+    position: absolute;
+    top: 0;
+    left: 0;
 
     &__logo-desktop {
       margin-top: 17px;
     }
 
     &__nav-list {
+      display: flex;
+      flex-wrap: wrap;
       gap: 40px;
       margin-right: 29px;
       max-width: none;
@@ -110,6 +114,7 @@
 
     &__logo-mobile {
       display: block;
+      margin-right: 20px;
     }
 
     &__nav-list {

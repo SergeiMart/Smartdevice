@@ -1,6 +1,5 @@
 .form {
   width: 100%;
-  min-width: 1024px;
   background: linear-gradient(139.5deg, #026693 33.8%, #00b3ff 33.8%);
   background-position: center;
   padding: 164px 0 247px;
@@ -16,10 +15,15 @@
     }
 
     &::before {
-      content: url("./../img/form-aiplane.png");
+      content: "";
+      background: url("./../img/form-aiplane.png");
       position: absolute;
       left: 110px;
       top: 82px;
+      width: 27vw;
+      height: 285px;
+      background-repeat: no-repeat;
+      background-size: contain;
     }
   }
 
@@ -108,6 +112,9 @@
     letter-spacing: 0.05em;
     text-transform: uppercase;
     color: #ffffff;
+    min-width: 265px;
+    grid-column: 1/2;
+    grid-row: 1/2;
   }
 
   &__checkbox {
@@ -121,6 +128,13 @@
     color: #ffffff;
     opacity: 0.8;
     margin-top: 16px;
+    grid-column: 2/3;
+  }
+
+  &__reverse {display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column: 1/3;
+    gap: 32px;
   }
 }
 
@@ -159,11 +173,17 @@
     }
 
     & button {
-      max-width: 34.4vw;
+      min-width: 34.4vw;
+      width: 34.4vw;
     }
 
     &__checkbox {
       margin-top: 0;
+    }
+
+    &__reverse {
+      gap: 31px;
+      width: 87vw;
     }
   }
 }
@@ -210,7 +230,14 @@
 
     & button {
       max-width: 84.3vw;
+      min-width: 84.3vw;
       margin-bottom: 6px;
+    }
+
+    &__reverse {
+      display: flex;
+      flex-direction: column-reverse;
+      gap: 0;
     }
   }
 }

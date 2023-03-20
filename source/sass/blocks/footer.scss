@@ -1,6 +1,5 @@
 .footer {
-  max-width: 100%;
-  min-width: 1023px;
+  width: 100%;
   background: #041827;
   padding: 48px 0 55px;
 
@@ -11,8 +10,10 @@
 
   &__accordion {
     display: flex;
-    gap: 4.3vw;
+    gap: 6.7vw;
     margin-right: 25px;
+    flex-wrap: wrap;
+    justify-content: space-between;
   }
 
   &__list-links {
@@ -45,14 +46,13 @@
 
   &__site-list {
     list-style-type: none;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
     padding: 0;
     margin: 0;
-    gap: 5px;
-    min-width: 418px;
-    max-height: 160px;
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-rows: repeat(4, auto);
+    row-gap: 6px;
+    column-gap: 45px;
 
     & a {
       font-family: "PT Mono", "Arial", sans-serif;
@@ -72,8 +72,8 @@
     padding: 0;
     margin: 0;
     gap: 5px;
-    max-width: 345px;
     min-height: 160px;
+    max-width: 18vw;
 
     & a {
       font-family: "PT Mono", "Arial", sans-serif;
@@ -100,6 +100,7 @@
       display: flex;
       justify-content: space-between;
       align-items: center;
+      padding-right: 49px;
     }
 
     &__list-links {
@@ -111,12 +112,15 @@
       max-width: 924px;
       min-width: 670px;
       margin-right: 0;
-      gap: 0;
-      justify-content: space-between;
+      gap: 149px;
       padding-top: 24px;
+      justify-content: flex-start;
     }
 
     &__site-list {
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: column;
       min-width: auto;
       max-height: none;
     }
@@ -160,6 +164,7 @@
       max-height: none;
       min-height: auto;
       padding-top: 23px;
+      gap: 0;
     }
 
     &__accordion-element {
