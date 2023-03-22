@@ -1436,11 +1436,6 @@ button,
   display: flex;
   gap: 6.7vw;
   margin-right: 25px;
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
-  -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
 }
 
 .footer__list-links {
@@ -1478,19 +1473,25 @@ button,
   padding: 7px 0 20px;
 }
 
+.footer__accordion-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 45px;
+}
+
 .footer__site-list {
   list-style-type: none;
   padding: 0;
   margin: 0;
-  display: -ms-grid;
-  display: grid;
-  grid-auto-flow: column;
-  -ms-grid-rows: (auto)[4];
-  grid-template-rows: repeat(4, auto);
-  row-gap: 6px;
-  -webkit-column-gap: 45px;
-  -moz-column-gap: 45px;
-  column-gap: 45px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  gap: 6px;
 }
 
 .footer__site-list a {
@@ -2136,7 +2137,6 @@ button,
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
-    padding-right: 49px;
   }
 
   .footer__list-links {
@@ -2148,23 +2148,21 @@ button,
     max-width: 924px;
     min-width: 670px;
     margin-right: 0;
-    gap: 149px;
     padding-top: 24px;
-    -webkit-box-pack: start;
-    -ms-flex-pack: start;
-    justify-content: flex-start;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
   }
 
-  .footer__site-list {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
+  .footer__accordion-wrapper {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
     -ms-flex-direction: column;
     flex-direction: column;
+    gap: 0;
+  }
+
+  .footer__site-list {
     min-width: auto;
     max-height: none;
   }
@@ -2520,6 +2518,10 @@ button,
   .footer__contacts-list a {
     font-size: 14px;
     line-height: 135%;
+  }
+
+  .footer__site-list--bottom {
+    padding-bottom: 0;
   }
 
   .footer__accordion-element--margin {
